@@ -1,0 +1,68 @@
+body {
+    background-color: #E6E6E6;
+}
+#nav-image {
+    height: 80px;
+    width: 80px;
+}
+#circles {
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+}
+#design {
+    background-color: #E6563B;
+    border:5px solid #F0F0F0;
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#develop {
+    background-color: #EB9D3A;
+    border:5px solid #F0F0F0;
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#support {
+    background-color: #7CB06C;
+    border:5px solid #F0F0F0;
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#host {
+    background-color: #00ABA9;
+    border:5px solid #F0F0F0;
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
