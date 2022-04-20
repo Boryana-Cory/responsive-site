@@ -165,6 +165,11 @@ body {
     margin-top: 5px;
     /*border-radius: 5px;*/
 }
+.small-pictures {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid #b9b7b7;
+}
 .right-side-text {
     display: flex;
     flex-direction: column;
@@ -237,4 +242,9 @@ div {
     /*    width: 200px;*/
     /*}*/
 }
-
+.anton {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
