@@ -93,7 +93,7 @@ body {
 .host {
     background-color: #00ABA9;
 }
-#center-text {
+.center-text {
     padding-top: 33px;
     font-family: "Anton", serif;
 }
@@ -125,8 +125,10 @@ body {
 .under-the-picture {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
-    justify-content: center;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    margin-bottom: 5px;
+    margin-top: 5px;
 
 }
 .circles {
@@ -134,12 +136,13 @@ body {
 }
 .smallCircle {
     box-sizing: border-box;
-    height: 18px;
-    width: 18px;
+    height: 14px;
+    width: 14px;
     border-radius: 50%;
     text-align: center;
-    margin:0 5px;
-    font-size: 12px;
+    margin:0 2px;
+    font-size: 10px;
+    font-weight: bold;
 }
 .redCircle{
     background-color: #E6563B;
@@ -202,7 +205,14 @@ div {
     display: flex;
     justify-content: end;
 }
-
+.under-the-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
     /*img {*/
     /*    width: 100%;*/
     /*}*/
