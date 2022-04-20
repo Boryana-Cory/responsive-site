@@ -191,6 +191,17 @@ div {
         width: 100%;
         flex-basis: 100%;
     }
+.div-circle {
+    width: 50%;
+}
+#design1 {
+    display: flex;
+    justify-content: end;
+}
+#support1 {
+    display: flex;
+    justify-content: end;
+}
 
     /*img {*/
     /*    width: 100%;*/
